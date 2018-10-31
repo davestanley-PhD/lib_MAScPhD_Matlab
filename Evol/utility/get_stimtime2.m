@@ -76,7 +76,7 @@ function [stim_tabs seiz_tabs] = get_stimtime2(ratN)
     
     
     start_from_scratch=1;
-    path_ratlog='../Disk_inventory/RatData_out';
+    path_ratlog='../data/Disk_inventory/RatData_out';
     outlog_path = ['./Ratoutmat_FFT'];
     if start_from_scratch
         [outlog_path outlog_name] = save_log(path_ratlog, ratnum, outlog_path);   % Save log file

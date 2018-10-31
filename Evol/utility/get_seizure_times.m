@@ -11,7 +11,7 @@ function [sz_days] = get_seizure_times (ratN, fileinfo)
 
     
     start_from_scratch = 1;
-    path_ratlog = ('../Disk_inventory/RatData_out');
+    path_ratlog = ('../data/Disk_inventory/RatData_out');
     
     path_savephase = './Phase_Roll';
 
