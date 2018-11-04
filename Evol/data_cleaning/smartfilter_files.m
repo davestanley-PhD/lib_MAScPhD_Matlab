@@ -41,7 +41,7 @@ function [bad_indices, bad_files] = smartfilter_files (t,d0,fnum,invert,ratN)
     
     
     if ~invert
-        plot_on = 0;
+        plot_on = 1;
         bin_size = 5;
         prefilter_threshold = 10;
         envelope_threshold = 20;
